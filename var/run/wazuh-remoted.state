@@ -1,0 +1,30 @@
+# State file for wazuh-remoted
+# THIS FILE WILL BE DEPRECATED IN FUTURE VERSIONS
+# Updated every 5 seconds.
+
+# Queue size
+queue_size='0'
+
+# Total queue size
+total_queue_size='131072'
+
+# TCP sessions
+tcp_sessions='2'
+
+# Events sent to Analysisd
+evt_count='4725'
+
+# Control messages received
+ctrl_msg_count='186'
+
+# Discarded messages
+discarded_count='0'
+
+# Total number of bytes sent
+sent_bytes='18527'
+
+# Total number of bytes received
+recv_bytes='2087126'
+
+# Messages dequeued after the agent closes the connection
+dequeued_after_close='1'

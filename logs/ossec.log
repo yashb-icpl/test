@@ -1,0 +1,2070 @@
+2023/06/14 13:20:39 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2023/06/14 13:20:39 wazuh-dbd: INFO: Database not configured. Clean exit.
+2023/06/14 13:20:39 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2023/06/14 13:20:39 wazuh-agentlessd: INFO: Not configured. Exiting.
+2023/06/14 13:20:39 wazuh-authd: INFO: Started (pid: 471).
+2023/06/14 13:20:39 wazuh-authd: INFO: Accepting connections on port 1515. Random password chosen for agent authentication: 3bcb5892e8e62bfff9835b42a7a4a055
+2023/06/14 13:20:39 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2023/06/14 13:20:40 wazuh-db: INFO: Started (pid: 488).
+2023/06/14 13:20:40 wazuh-db: INFO: Created Global database backup "backup/db/global.db-backup-2023-06-14-13:20:40.gz"
+2023/06/14 13:20:41 wazuh-execd: INFO: Started (pid: 514).
+2023/06/14 13:20:43 wazuh-analysisd: INFO: Total rules enabled: '6689'
+2023/06/14 13:20:43 wazuh-analysisd: INFO: Started (pid: 536).
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: Started (pid: 548).
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2023/06/14 13:20:43 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2023/06/14 13:20:43 rootcheck: INFO: Starting rootcheck scan.
+2023/06/14 13:20:43 wazuh-analysisd: INFO: EPS limit disabled
+2023/06/14 13:20:43 wazuh-analysisd: INFO: (7200): Logtest started
+2023/06/14 13:20:44 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2023/06/14 13:20:44 wazuh-remoted: INFO: Started (pid: 617). Listening on port 1514/TCP (secure).
+2023/06/14 13:20:44 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 13:20:45 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2023/06/14 13:20:45 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2023/06/14 13:20:45 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2023/06/14 13:20:45 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2023/06/14 13:20:45 wazuh-logcollector: INFO: Started (pid: 678).
+2023/06/14 13:20:46 wazuh-monitord: INFO: Started (pid: 726).
+2023/06/14 13:20:47 wazuh-modulesd: INFO: Started (pid: 779).
+2023/06/14 13:20:47 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2023/06/14 13:20:47 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2023/06/14 13:20:47 sca: INFO: Module started.
+2023/06/14 13:20:47 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2023/06/14 13:20:47 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 13:20:47 wazuh-modulesd:database: INFO: Module started.
+2023/06/14 13:20:47 sca: INFO: Starting Security Configuration Assessment scan.
+2023/06/14 13:20:47 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2023/06/14 13:20:47 wazuh-modulesd:control: INFO: Starting control thread.
+2023/06/14 13:20:47 wazuh-modulesd:download: INFO: Module started.
+2023/06/14 13:20:47 wazuh-modulesd:syscollector: INFO: Module started.
+2023/06/14 13:20:47 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2023/06/14 13:20:47 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 13:20:47 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2023/06/14 13:20:54 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 13:20:54 sca: INFO: Security Configuration Assessment scan finished. Duration: 7 seconds.
+2023/06/14 13:21:00 rootcheck: INFO: Ending rootcheck scan.
+2023/06/14 13:22:06 wazuh-modulesd:syscollector: INFO: Stop received for Syscollector.
+2023/06/14 13:22:06 wazuh-modulesd:syscollector: INFO: Module finished.
+2023/06/14 13:22:06 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:22:06 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:22:06 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:22:06 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:22:06 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:22:06 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2023/06/14 13:22:06 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:22:06 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:22:07 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:22:08 wazuh-authd: INFO: Exiting...
+2023/06/14 13:22:10 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2023/06/14 13:22:11 wazuh-dbd: INFO: Database not configured. Clean exit.
+2023/06/14 13:22:11 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2023/06/14 13:22:11 wazuh-agentlessd: INFO: Not configured. Exiting.
+2023/06/14 13:22:11 wazuh-authd: INFO: Started (pid: 1735).
+2023/06/14 13:22:11 wazuh-authd: INFO: Accepting connections on port 1515. Using password specified on file: etc/authd.pass
+2023/06/14 13:22:11 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2023/06/14 13:22:12 wazuh-db: INFO: Started (pid: 1753).
+2023/06/14 13:22:13 wazuh-execd: INFO: Started (pid: 1777).
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: Started (pid: 1799).
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2023/06/14 13:22:13 rootcheck: INFO: Starting rootcheck scan.
+2023/06/14 13:22:13 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2023/06/14 13:22:13 wazuh-analysisd: INFO: Total rules enabled: '6689'
+2023/06/14 13:22:13 wazuh-analysisd: INFO: Started (pid: 1789).
+2023/06/14 13:22:13 wazuh-analysisd: INFO: EPS limit disabled
+2023/06/14 13:22:13 wazuh-analysisd: INFO: (7200): Logtest started
+2023/06/14 13:22:14 wazuh-remoted: INFO: Started (pid: 1874). Listening on port 1514/TCP (secure).
+2023/06/14 13:22:14 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 13:22:15 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2023/06/14 13:22:15 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2023/06/14 13:22:15 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2023/06/14 13:22:15 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2023/06/14 13:22:15 wazuh-logcollector: INFO: Started (pid: 1942).
+2023/06/14 13:22:16 wazuh-monitord: INFO: Started (pid: 1998).
+2023/06/14 13:22:16 wazuh-modulesd: INFO: Started (pid: 2010).
+2023/06/14 13:22:16 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2023/06/14 13:22:16 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2023/06/14 13:22:16 wazuh-modulesd:database: INFO: Module started.
+2023/06/14 13:22:16 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2023/06/14 13:22:16 wazuh-modulesd:download: INFO: Module started.
+2023/06/14 13:22:16 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2023/06/14 13:22:16 wazuh-modulesd:control: INFO: Starting control thread.
+2023/06/14 13:22:16 sca: INFO: Module started.
+2023/06/14 13:22:16 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 13:22:16 sca: INFO: Starting Security Configuration Assessment scan.
+2023/06/14 13:22:16 wazuh-modulesd:syscollector: INFO: Module started.
+2023/06/14 13:22:16 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2023/06/14 13:22:16 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2023/06/14 13:22:16 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 13:22:22 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 13:22:22 sca: INFO: Security Configuration Assessment scan finished. Duration: 6 seconds.
+2023/06/14 13:22:29 rootcheck: INFO: Ending rootcheck scan.
+2023/06/14 13:37:04 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
+2023/06/14 13:37:04 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 13:37:49 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:37:49 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:37:54 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 13:37:54 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 13:37:54 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 13:37:54 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 13:37:55 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:37:55 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:38:05 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:38:05 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:38:15 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:38:15 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:38:25 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:38:25 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:38:28 wazuh-modulesd:syscollector: INFO: Stop received for Syscollector.
+2023/06/14 13:38:28 wazuh-modulesd:syscollector: INFO: Module finished.
+2023/06/14 13:38:28 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:38:28 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:38:29 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:38:29 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:38:29 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:38:29 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2023/06/14 13:38:29 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:38:29 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:38:30 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:38:30 wazuh-authd: INFO: Exiting...
+2023/06/14 13:38:33 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2023/06/14 13:38:33 wazuh-dbd: INFO: Database not configured. Clean exit.
+2023/06/14 13:38:33 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2023/06/14 13:38:33 wazuh-agentlessd: INFO: Not configured. Exiting.
+2023/06/14 13:38:33 wazuh-authd: INFO: Started (pid: 3304).
+2023/06/14 13:38:33 wazuh-authd: INFO: Accepting connections on port 1515. Using password specified on file: etc/authd.pass
+2023/06/14 13:38:33 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2023/06/14 13:38:33 wazuh-db: INFO: Started (pid: 3320).
+2023/06/14 13:38:34 wazuh-execd: INFO: Started (pid: 3343).
+2023/06/14 13:38:35 wazuh-analysisd: INFO: Total rules enabled: '6689'
+2023/06/14 13:38:35 wazuh-analysisd: INFO: Started (pid: 3355).
+2023/06/14 13:38:35 wazuh-analysisd: INFO: EPS limit disabled
+2023/06/14 13:38:35 wazuh-analysisd: INFO: (7200): Logtest started
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: Started (pid: 3417).
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2023/06/14 13:38:35 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2023/06/14 13:38:35 rootcheck: INFO: Starting rootcheck scan.
+2023/06/14 13:38:36 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2023/06/14 13:38:36 wazuh-remoted: INFO: Started (pid: 3447). Listening on port 1514/TCP (secure).
+2023/06/14 13:38:36 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 13:38:37 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2023/06/14 13:38:37 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2023/06/14 13:38:37 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2023/06/14 13:38:37 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2023/06/14 13:38:37 wazuh-logcollector: INFO: Started (pid: 3511).
+2023/06/14 13:38:38 wazuh-monitord: INFO: Started (pid: 3569).
+2023/06/14 13:38:39 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 13:38:39 wazuh-modulesd: INFO: Started (pid: 3626).
+2023/06/14 13:38:39 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2023/06/14 13:38:39 wazuh-modulesd:database: INFO: Module started.
+2023/06/14 13:38:39 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2023/06/14 13:38:39 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2023/06/14 13:38:39 sca: INFO: Module started.
+2023/06/14 13:38:39 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 13:38:39 sca: INFO: Starting Security Configuration Assessment scan.
+2023/06/14 13:38:39 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2023/06/14 13:38:39 wazuh-modulesd:control: INFO: Starting control thread.
+2023/06/14 13:38:39 wazuh-modulesd:download: INFO: Module started.
+2023/06/14 13:38:39 wazuh-modulesd:syscollector: INFO: Module started.
+2023/06/14 13:38:39 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2023/06/14 13:38:39 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2023/06/14 13:38:39 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 13:38:45 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 13:38:45 sca: INFO: Security Configuration Assessment scan finished. Duration: 6 seconds.
+2023/06/14 13:38:49 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 13:38:51 rootcheck: INFO: Ending rootcheck scan.
+2023/06/14 13:38:59 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 13:39:09 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 13:39:09 wazuh-authd: INFO: New connection from 134.209.145.228
+2023/06/14 13:39:09 wazuh-authd: ERROR: Invalid password provided by 134.209.145.228. Closing connection.
+2023/06/14 13:39:19 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 13:39:26 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
+2023/06/14 13:39:26 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 13:39:29 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:39:29 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:39:39 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:39:39 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:39:49 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:39:49 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:39:59 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:39:59 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:40:09 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:40:09 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:40:19 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:40:19 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:40:29 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:40:29 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:40:39 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:40:39 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:40:49 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:40:49 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:40:59 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:40:59 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:41:09 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:41:09 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:41:19 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:41:19 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:41:29 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:41:29 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:41:39 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:41:39 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:41:49 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:41:49 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:41:59 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:41:59 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:42:09 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:42:09 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:42:16 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:42:16 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:42:20 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 13:42:20 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 13:42:20 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 13:42:20 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 13:42:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:42:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:42:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:42:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:42:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:42:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:42:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:42:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:43:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:43:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:43:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:43:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:43:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:43:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:43:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:43:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:43:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:43:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:43:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:43:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:44:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:44:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:44:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:44:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:44:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:44:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:44:27 wazuh-modulesd:syscollector: INFO: Stop received for Syscollector.
+2023/06/14 13:44:27 wazuh-modulesd:syscollector: INFO: Module finished.
+2023/06/14 13:44:27 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:44:27 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:44:27 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:44:27 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:44:27 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:44:27 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2023/06/14 13:44:27 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:44:27 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:44:28 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:44:29 wazuh-authd: INFO: Exiting...
+2023/06/14 13:44:32 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2023/06/14 13:44:32 wazuh-dbd: INFO: Database not configured. Clean exit.
+2023/06/14 13:44:32 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2023/06/14 13:44:32 wazuh-agentlessd: INFO: Not configured. Exiting.
+2023/06/14 13:44:32 wazuh-authd: INFO: Started (pid: 4518).
+2023/06/14 13:44:32 wazuh-authd: INFO: Accepting connections on port 1515. Using password specified on file: etc/authd.pass
+2023/06/14 13:44:32 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2023/06/14 13:44:33 wazuh-db: INFO: Started (pid: 4535).
+2023/06/14 13:44:34 wazuh-execd: INFO: Started (pid: 4568).
+2023/06/14 13:44:35 wazuh-analysisd: INFO: Total rules enabled: '6689'
+2023/06/14 13:44:35 wazuh-analysisd: INFO: Started (pid: 4581).
+2023/06/14 13:44:36 wazuh-analysisd: INFO: EPS limit disabled
+2023/06/14 13:44:36 wazuh-analysisd: INFO: (7200): Logtest started
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: Started (pid: 4643).
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2023/06/14 13:44:36 rootcheck: INFO: Starting rootcheck scan.
+2023/06/14 13:44:36 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2023/06/14 13:44:37 wazuh-remoted: INFO: Started (pid: 4665). Listening on port 1514/TCP (secure).
+2023/06/14 13:44:37 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 13:44:37 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 13:44:38 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2023/06/14 13:44:38 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2023/06/14 13:44:38 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2023/06/14 13:44:38 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2023/06/14 13:44:38 wazuh-logcollector: INFO: Started (pid: 4729).
+2023/06/14 13:44:38 wazuh-monitord: INFO: Started (pid: 4747).
+2023/06/14 13:44:39 wazuh-modulesd: INFO: Started (pid: 4798).
+2023/06/14 13:44:39 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2023/06/14 13:44:39 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2023/06/14 13:44:39 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2023/06/14 13:44:39 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2023/06/14 13:44:39 sca: INFO: Module started.
+2023/06/14 13:44:39 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 13:44:39 wazuh-modulesd:download: INFO: Module started.
+2023/06/14 13:44:39 wazuh-modulesd:database: INFO: Module started.
+2023/06/14 13:44:39 sca: INFO: Starting Security Configuration Assessment scan.
+2023/06/14 13:44:39 wazuh-modulesd:control: INFO: Starting control thread.
+2023/06/14 13:44:39 wazuh-modulesd:syscollector: INFO: Module started.
+2023/06/14 13:44:39 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2023/06/14 13:44:39 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2023/06/14 13:44:39 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 13:44:45 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 13:44:45 sca: INFO: Security Configuration Assessment scan finished. Duration: 6 seconds.
+2023/06/14 13:44:47 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 13:44:52 rootcheck: INFO: Ending rootcheck scan.
+2023/06/14 13:44:57 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 13:45:07 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 13:45:07 wazuh-authd: INFO: New connection from 134.209.145.228
+2023/06/14 13:45:07 wazuh-authd: ERROR: Invalid password provided by 134.209.145.228. Closing connection.
+2023/06/14 13:45:17 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
+2023/06/14 13:45:17 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 13:45:17 wazuh-remoted: ERROR: (1401): Error reading authentication key: '
+'.
+2023/06/14 13:45:17 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:45:17 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:45:27 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:45:27 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:45:37 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:45:37 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:45:47 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:45:47 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:45:57 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:45:57 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:46:07 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:46:07 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:46:17 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:46:17 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:46:27 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:46:27 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:46:37 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:46:37 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:46:47 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:46:47 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:46:57 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:46:57 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:47:07 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:47:07 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:47:16 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:47:16 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:47:27 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:47:27 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:47:37 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:47:37 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:47:47 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:47:47 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:47:57 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:47:57 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:48:07 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:48:07 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:48:17 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:48:17 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:48:27 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:48:27 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:48:37 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:48:37 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:48:47 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:48:47 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:48:57 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:48:57 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:49:08 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:49:08 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:49:13 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 13:49:13 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 13:49:13 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 13:49:13 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 13:49:14 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:49:14 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:49:24 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:49:24 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:49:34 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:49:34 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:49:44 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:49:44 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:49:54 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:49:54 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:50:04 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:50:04 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:50:14 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:50:14 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:50:24 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:50:24 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:50:34 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:50:34 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:50:44 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:50:44 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:50:54 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:50:54 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:51:04 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:51:04 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:51:14 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:51:14 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:51:24 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:51:24 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:51:34 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:51:34 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:51:44 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:51:44 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:51:54 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:51:54 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:52:04 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:52:04 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:52:14 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:52:14 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:52:24 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:52:24 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:52:34 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:52:34 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:52:44 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:52:44 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:52:53 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:52:53 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:53:03 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:53:03 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:53:13 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:53:13 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:53:24 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:53:24 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:53:34 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:53:34 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:53:44 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:53:44 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:53:54 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:53:54 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:54:05 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:54:05 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:54:10 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 13:54:10 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 13:54:10 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 13:54:10 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 13:54:11 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:54:11 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:54:21 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:54:21 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:54:31 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:54:31 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:55:03 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:55:03 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:55:07 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 13:55:07 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 13:55:07 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 13:55:07 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 13:55:09 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:55:09 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:55:19 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:55:19 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:55:29 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:55:29 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:55:39 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:55:39 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:55:49 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:55:49 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:55:59 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:55:59 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:56:09 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:56:09 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:56:19 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:56:19 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:56:29 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:56:29 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:56:39 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:56:39 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:56:49 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:56:49 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:56:59 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:56:59 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:57:09 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:57:09 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:57:19 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:57:19 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:57:29 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:57:29 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:57:39 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:57:39 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:57:49 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:57:49 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:57:59 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:57:59 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:58:09 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:58:09 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:58:19 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:58:19 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:58:29 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:58:29 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:58:39 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:58:39 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:58:49 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:58:49 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:58:59 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 13:58:59 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 13:59:08 wazuh-authd: INFO: (1225): SIGNAL [(1)-(Hangup)] Received. Exit Cleaning...
+2023/06/14 13:59:08 wazuh-db: INFO: (1225): SIGNAL [(1)-(Hangup)] Received. Exit Cleaning...
+2023/06/14 13:59:08 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2023/06/14 13:59:08 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:59:08 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:59:08 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:59:08 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:59:08 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:59:08 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:59:08 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:59:08 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 13:59:08 wazuh-authd: INFO: Exiting...
+2023/06/14 13:59:22 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2023/06/14 13:59:22 wazuh-dbd: INFO: Database not configured. Clean exit.
+2023/06/14 13:59:22 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2023/06/14 13:59:22 wazuh-agentlessd: INFO: Not configured. Exiting.
+2023/06/14 13:59:22 wazuh-authd: INFO: Started (pid: 367).
+2023/06/14 13:59:22 wazuh-authd: INFO: Accepting connections on port 1515. Using password specified on file: etc/authd.pass
+2023/06/14 13:59:22 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2023/06/14 13:59:22 wazuh-db: INFO: Started (pid: 381).
+2023/06/14 13:59:23 wazuh-execd: INFO: Started (pid: 406).
+2023/06/14 13:59:25 wazuh-analysisd: INFO: Total rules enabled: '6689'
+2023/06/14 13:59:25 wazuh-analysisd: INFO: Started (pid: 421).
+2023/06/14 13:59:25 wazuh-analysisd: INFO: EPS limit disabled
+2023/06/14 13:59:25 wazuh-analysisd: INFO: (7200): Logtest started
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: Started (pid: 489).
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2023/06/14 13:59:25 rootcheck: INFO: Starting rootcheck scan.
+2023/06/14 13:59:25 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2023/06/14 13:59:26 wazuh-remoted: INFO: Started (pid: 513). Listening on port 1514/TCP (secure).
+2023/06/14 13:59:26 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 13:59:27 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2023/06/14 13:59:27 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2023/06/14 13:59:27 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2023/06/14 13:59:27 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2023/06/14 13:59:27 wazuh-logcollector: INFO: Started (pid: 581).
+2023/06/14 13:59:27 wazuh-monitord: INFO: Started (pid: 598).
+2023/06/14 13:59:28 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 13:59:28 wazuh-modulesd: INFO: Started (pid: 653).
+2023/06/14 13:59:28 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2023/06/14 13:59:28 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2023/06/14 13:59:28 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2023/06/14 13:59:28 sca: INFO: Module started.
+2023/06/14 13:59:28 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 13:59:28 sca: INFO: Starting Security Configuration Assessment scan.
+2023/06/14 13:59:28 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2023/06/14 13:59:28 wazuh-modulesd:database: INFO: Module started.
+2023/06/14 13:59:28 wazuh-modulesd:download: INFO: Module started.
+2023/06/14 13:59:28 wazuh-modulesd:control: INFO: Starting control thread.
+2023/06/14 13:59:28 wazuh-modulesd:syscollector: INFO: Module started.
+2023/06/14 13:59:28 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2023/06/14 13:59:28 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2023/06/14 13:59:28 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 13:59:34 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 13:59:34 sca: INFO: Security Configuration Assessment scan finished. Duration: 6 seconds.
+2023/06/14 13:59:38 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 13:59:41 rootcheck: INFO: Ending rootcheck scan.
+2023/06/14 13:59:48 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 13:59:48 wazuh-authd: INFO: New connection from 134.209.145.228
+2023/06/14 13:59:48 wazuh-authd: ERROR: Invalid password provided by 134.209.145.228. Closing connection.
+2023/06/14 13:59:58 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 14:00:06 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
+2023/06/14 14:00:06 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 14:00:08 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 14:00:08 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 14:00:18 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 14:00:18 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 14:00:28 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 14:00:28 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 14:00:38 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 14:00:38 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 14:00:48 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 14:00:48 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 14:00:58 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 14:00:58 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 14:01:08 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 14:01:08 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 14:01:18 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 14:01:18 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 14:01:28 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 14:01:28 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 14:01:38 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 14:01:38 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 14:01:48 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 14:01:48 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 14:01:58 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 14:01:58 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 14:02:08 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 14:02:08 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 14:02:18 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 14:02:18 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 14:02:28 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 14:02:28 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 14:02:38 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 14:02:38 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 14:02:48 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 14:02:48 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 14:02:58 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 14:02:58 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 14:03:08 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 14:03:08 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 14:03:18 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 14:03:18 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 14:03:26 wazuh-authd: INFO: (1225): SIGNAL [(1)-(Hangup)] Received. Exit Cleaning...
+2023/06/14 14:03:26 wazuh-db: INFO: (1225): SIGNAL [(1)-(Hangup)] Received. Exit Cleaning...
+2023/06/14 14:03:26 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:03:26 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2023/06/14 14:03:26 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:03:26 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:03:26 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:03:26 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:03:26 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:03:26 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:03:26 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:03:26 wazuh-authd: INFO: Exiting...
+2023/06/14 14:04:13 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2023/06/14 14:04:13 wazuh-dbd: INFO: Database not configured. Clean exit.
+2023/06/14 14:04:13 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2023/06/14 14:04:13 wazuh-agentlessd: INFO: Not configured. Exiting.
+2023/06/14 14:04:13 wazuh-authd: INFO: Started (pid: 366).
+2023/06/14 14:04:13 wazuh-authd: INFO: Accepting connections on port 1515. No password required.
+2023/06/14 14:04:13 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2023/06/14 14:04:14 wazuh-db: INFO: Started (pid: 384).
+2023/06/14 14:04:15 wazuh-execd: INFO: Started (pid: 410).
+2023/06/14 14:04:17 wazuh-analysisd: INFO: Total rules enabled: '6689'
+2023/06/14 14:04:17 wazuh-analysisd: INFO: Started (pid: 430).
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: Started (pid: 444).
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2023/06/14 14:04:17 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2023/06/14 14:04:17 rootcheck: INFO: Starting rootcheck scan.
+2023/06/14 14:04:18 wazuh-analysisd: INFO: EPS limit disabled
+2023/06/14 14:04:18 wazuh-analysisd: INFO: (7200): Logtest started
+2023/06/14 14:04:18 wazuh-remoted: INFO: Started (pid: 508). Listening on port 1514/TCP (secure).
+2023/06/14 14:04:18 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 14:04:19 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2023/06/14 14:04:19 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2023/06/14 14:04:19 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2023/06/14 14:04:19 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2023/06/14 14:04:19 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2023/06/14 14:04:19 wazuh-logcollector: INFO: Started (pid: 547).
+2023/06/14 14:04:21 wazuh-monitord: INFO: Started (pid: 595).
+2023/06/14 14:04:22 wazuh-modulesd: INFO: Started (pid: 652).
+2023/06/14 14:04:22 wazuh-modulesd:database: INFO: Module started.
+2023/06/14 14:04:22 sca: INFO: Module started.
+2023/06/14 14:04:22 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 14:04:22 sca: INFO: Starting Security Configuration Assessment scan.
+2023/06/14 14:04:22 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2023/06/14 14:04:22 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2023/06/14 14:04:22 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2023/06/14 14:04:22 wazuh-modulesd:control: INFO: Starting control thread.
+2023/06/14 14:04:22 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2023/06/14 14:04:22 wazuh-modulesd:download: INFO: Module started.
+2023/06/14 14:04:22 wazuh-modulesd:syscollector: INFO: Module started.
+2023/06/14 14:04:22 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2023/06/14 14:04:22 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2023/06/14 14:04:22 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 14:04:26 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 14:04:29 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 14:04:29 sca: INFO: Security Configuration Assessment scan finished. Duration: 7 seconds.
+2023/06/14 14:04:36 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 14:04:36 rootcheck: INFO: Ending rootcheck scan.
+2023/06/14 14:04:46 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 14:04:56 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 14:04:56 wazuh-authd: INFO: New connection from 134.209.145.228
+2023/06/14 14:04:56 wazuh-authd: INFO: Received request for a new agent (agent) from: 134.209.145.228
+2023/06/14 14:04:56 wazuh-authd: INFO: Agent key generated for 'agent' (requested by any)
+2023/06/14 14:04:58 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
+2023/06/14 14:04:58 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 14:09:53 wazuh-modulesd:syscollector: INFO: Stop received for Syscollector.
+2023/06/14 14:09:53 wazuh-modulesd:syscollector: INFO: Module finished.
+2023/06/14 14:09:53 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:09:53 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:09:53 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:09:53 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:09:53 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:09:54 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2023/06/14 14:09:54 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:09:54 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:09:54 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:09:55 wazuh-authd: INFO: Exiting...
+2023/06/14 14:09:58 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2023/06/14 14:09:58 wazuh-dbd: INFO: Database not configured. Clean exit.
+2023/06/14 14:09:58 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2023/06/14 14:09:58 wazuh-agentlessd: INFO: Not configured. Exiting.
+2023/06/14 14:09:58 wazuh-authd: INFO: Started (pid: 1961).
+2023/06/14 14:09:58 wazuh-authd: INFO: Accepting connections on port 1515. Using password specified on file: etc/authd.pass
+2023/06/14 14:09:58 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2023/06/14 14:09:59 wazuh-db: INFO: Started (pid: 1977).
+2023/06/14 14:10:00 wazuh-execd: INFO: Started (pid: 2002).
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: Started (pid: 2033).
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2023/06/14 14:10:01 rootcheck: INFO: Starting rootcheck scan.
+2023/06/14 14:10:01 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2023/06/14 14:10:02 wazuh-analysisd: INFO: Total rules enabled: '6689'
+2023/06/14 14:10:02 wazuh-analysisd: INFO: Started (pid: 2023).
+2023/06/14 14:10:02 wazuh-remoted: INFO: Started (pid: 2054). Listening on port 1514/TCP (secure).
+2023/06/14 14:10:02 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 14:10:02 wazuh-analysisd: INFO: EPS limit disabled
+2023/06/14 14:10:02 wazuh-analysisd: INFO: (7200): Logtest started
+2023/06/14 14:10:03 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2023/06/14 14:10:03 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2023/06/14 14:10:03 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2023/06/14 14:10:03 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2023/06/14 14:10:03 wazuh-logcollector: INFO: Started (pid: 2158).
+2023/06/14 14:10:03 wazuh-monitord: INFO: Started (pid: 2176).
+2023/06/14 14:10:04 wazuh-modulesd: INFO: Started (pid: 2224).
+2023/06/14 14:10:04 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2023/06/14 14:10:04 wazuh-modulesd:download: INFO: Module started.
+2023/06/14 14:10:04 wazuh-modulesd:database: INFO: Module started.
+2023/06/14 14:10:04 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2023/06/14 14:10:04 sca: INFO: Module started.
+2023/06/14 14:10:04 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 14:10:04 sca: INFO: Starting Security Configuration Assessment scan.
+2023/06/14 14:10:04 wazuh-modulesd:control: INFO: Starting control thread.
+2023/06/14 14:10:04 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2023/06/14 14:10:04 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2023/06/14 14:10:04 wazuh-modulesd:syscollector: INFO: Module started.
+2023/06/14 14:10:04 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2023/06/14 14:10:04 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 14:10:04 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2023/06/14 14:10:10 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 14:10:10 sca: INFO: Security Configuration Assessment scan finished. Duration: 6 seconds.
+2023/06/14 14:10:17 rootcheck: INFO: Ending rootcheck scan.
+2023/06/14 14:13:12 wazuh-modulesd:syscollector: INFO: Stop received for Syscollector.
+2023/06/14 14:13:12 wazuh-modulesd:syscollector: INFO: Module finished.
+2023/06/14 14:13:12 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:13:12 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:13:12 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:13:12 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:13:12 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:13:12 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2023/06/14 14:13:12 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:13:13 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:13:13 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:13:14 wazuh-authd: INFO: Exiting...
+2023/06/14 14:13:17 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2023/06/14 14:13:17 wazuh-dbd: INFO: Database not configured. Clean exit.
+2023/06/14 14:13:17 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2023/06/14 14:13:17 wazuh-agentlessd: INFO: Not configured. Exiting.
+2023/06/14 14:13:17 wazuh-authd: INFO: Started (pid: 3155).
+2023/06/14 14:13:17 wazuh-authd: INFO: Accepting connections on port 1515. No password required.
+2023/06/14 14:13:17 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2023/06/14 14:13:18 wazuh-db: INFO: Started (pid: 3172).
+2023/06/14 14:13:19 wazuh-execd: INFO: Started (pid: 3203).
+2023/06/14 14:13:20 wazuh-analysisd: INFO: Total rules enabled: '6689'
+2023/06/14 14:13:20 wazuh-analysisd: INFO: Started (pid: 3215).
+2023/06/14 14:13:20 wazuh-analysisd: INFO: EPS limit disabled
+2023/06/14 14:13:20 wazuh-analysisd: INFO: (7200): Logtest started
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: Started (pid: 3277).
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2023/06/14 14:13:20 rootcheck: INFO: Starting rootcheck scan.
+2023/06/14 14:13:20 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2023/06/14 14:13:21 wazuh-remoted: INFO: Started (pid: 3297). Listening on port 1514/TCP (secure).
+2023/06/14 14:13:21 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 14:13:22 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2023/06/14 14:13:22 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2023/06/14 14:13:22 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2023/06/14 14:13:22 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2023/06/14 14:13:22 wazuh-logcollector: INFO: Started (pid: 3363).
+2023/06/14 14:13:22 wazuh-monitord: INFO: Started (pid: 3382).
+2023/06/14 14:13:23 wazuh-modulesd: INFO: Started (pid: 3429).
+2023/06/14 14:13:23 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2023/06/14 14:13:23 wazuh-modulesd:control: INFO: Starting control thread.
+2023/06/14 14:13:23 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2023/06/14 14:13:23 wazuh-modulesd:download: INFO: Module started.
+2023/06/14 14:13:23 wazuh-modulesd:database: INFO: Module started.
+2023/06/14 14:13:23 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2023/06/14 14:13:23 sca: INFO: Module started.
+2023/06/14 14:13:23 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 14:13:23 sca: INFO: Starting Security Configuration Assessment scan.
+2023/06/14 14:13:23 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2023/06/14 14:13:23 wazuh-modulesd:syscollector: INFO: Module started.
+2023/06/14 14:13:23 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2023/06/14 14:13:23 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2023/06/14 14:13:23 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 14:13:29 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 14:13:29 sca: INFO: Security Configuration Assessment scan finished. Duration: 6 seconds.
+2023/06/14 14:13:36 rootcheck: INFO: Ending rootcheck scan.
+2023/06/14 14:31:57 wazuh-modulesd:syscollector: INFO: Stop received for Syscollector.
+2023/06/14 14:31:57 wazuh-modulesd:syscollector: INFO: Module finished.
+2023/06/14 14:31:57 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:31:57 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:31:57 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:31:57 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:31:57 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:31:58 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2023/06/14 14:31:58 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:31:58 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:31:58 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 14:31:59 wazuh-authd: INFO: Exiting...
+2023/06/14 14:32:02 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2023/06/14 14:32:02 wazuh-dbd: INFO: Database not configured. Clean exit.
+2023/06/14 14:32:02 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2023/06/14 14:32:02 wazuh-agentlessd: INFO: Not configured. Exiting.
+2023/06/14 14:32:02 wazuh-authd: INFO: Started (pid: 4398).
+2023/06/14 14:32:02 wazuh-authd: INFO: Accepting connections on port 1515. No password required.
+2023/06/14 14:32:02 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2023/06/14 14:32:03 wazuh-db: INFO: Started (pid: 4414).
+2023/06/14 14:32:04 wazuh-execd: INFO: Started (pid: 4439).
+2023/06/14 14:32:05 wazuh-analysisd: INFO: Total rules enabled: '6689'
+2023/06/14 14:32:05 wazuh-analysisd: INFO: Started (pid: 4451).
+2023/06/14 14:32:05 wazuh-analysisd: INFO: EPS limit disabled
+2023/06/14 14:32:05 wazuh-analysisd: INFO: (7200): Logtest started
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: Started (pid: 4519).
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2023/06/14 14:32:05 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2023/06/14 14:32:05 rootcheck: INFO: Starting rootcheck scan.
+2023/06/14 14:32:06 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2023/06/14 14:32:06 wazuh-remoted: INFO: Started (pid: 4540). Listening on port 1514/TCP (secure).
+2023/06/14 14:32:06 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 14:32:07 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2023/06/14 14:32:07 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2023/06/14 14:32:07 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2023/06/14 14:32:07 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2023/06/14 14:32:07 wazuh-logcollector: INFO: Started (pid: 4605).
+2023/06/14 14:32:08 wazuh-monitord: INFO: Started (pid: 4663).
+2023/06/14 14:32:08 wazuh-modulesd: INFO: Started (pid: 4673).
+2023/06/14 14:32:08 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2023/06/14 14:32:08 sca: INFO: Module started.
+2023/06/14 14:32:08 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 14:32:08 wazuh-modulesd:database: INFO: Module started.
+2023/06/14 14:32:08 sca: INFO: Starting Security Configuration Assessment scan.
+2023/06/14 14:32:08 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2023/06/14 14:32:08 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2023/06/14 14:32:08 wazuh-modulesd:download: INFO: Module started.
+2023/06/14 14:32:08 wazuh-modulesd:control: INFO: Starting control thread.
+2023/06/14 14:32:08 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2023/06/14 14:32:08 wazuh-modulesd:syscollector: INFO: Module started.
+2023/06/14 14:32:08 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2023/06/14 14:32:08 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2023/06/14 14:32:08 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 14:32:14 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 14:32:14 sca: INFO: Security Configuration Assessment scan finished. Duration: 6 seconds.
+2023/06/14 14:32:21 rootcheck: INFO: Ending rootcheck scan.
+2023/06/14 14:47:15 wazuh-authd: INFO: Agent '001' (agent) deleted (requested locally)
+2023/06/14 14:47:16 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
+2023/06/14 14:47:16 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 15:32:09 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2023/06/14 15:32:11 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2023/06/14 15:54:31 wazuh-authd: INFO: Started (pid: 5513).
+2023/06/14 15:54:31 wazuh-authd: ERROR: (1206): Unable to Bind port '1515' due to [(98)-(Address already in use)]
+2023/06/14 15:54:59 wazuh-modulesd:syscollector: INFO: Stop received for Syscollector.
+2023/06/14 15:54:59 wazuh-modulesd:syscollector: INFO: Module finished.
+2023/06/14 15:55:00 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 15:55:00 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 15:55:00 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 15:55:00 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 15:55:00 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 15:55:00 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2023/06/14 15:55:00 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 15:55:00 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 15:55:01 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 15:55:02 wazuh-authd: INFO: Exiting...
+2023/06/14 15:55:05 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2023/06/14 15:55:05 wazuh-dbd: INFO: Database not configured. Clean exit.
+2023/06/14 15:55:05 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2023/06/14 15:55:05 wazuh-agentlessd: INFO: Not configured. Exiting.
+2023/06/14 15:55:05 wazuh-authd: INFO: Started (pid: 5745).
+2023/06/14 15:55:05 wazuh-authd: INFO: Accepting connections on port 1515. Using password specified on file: etc/authd.pass
+2023/06/14 15:55:05 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2023/06/14 15:55:06 wazuh-db: INFO: Started (pid: 5762).
+2023/06/14 15:55:07 wazuh-execd: INFO: Started (pid: 5787).
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: Started (pid: 5809).
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2023/06/14 15:55:07 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2023/06/14 15:55:07 rootcheck: INFO: Starting rootcheck scan.
+2023/06/14 15:55:08 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2023/06/14 15:55:08 wazuh-analysisd: INFO: Total rules enabled: '6689'
+2023/06/14 15:55:08 wazuh-analysisd: INFO: Started (pid: 5799).
+2023/06/14 15:55:08 wazuh-analysisd: INFO: EPS limit disabled
+2023/06/14 15:55:08 wazuh-analysisd: INFO: (7200): Logtest started
+2023/06/14 15:55:08 wazuh-remoted: INFO: Started (pid: 5884). Listening on port 1514/TCP (secure).
+2023/06/14 15:55:08 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 15:55:09 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2023/06/14 15:55:09 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2023/06/14 15:55:09 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2023/06/14 15:55:09 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2023/06/14 15:55:09 wazuh-logcollector: INFO: Started (pid: 5946).
+2023/06/14 15:55:10 wazuh-monitord: INFO: Started (pid: 6003).
+2023/06/14 15:55:11 wazuh-modulesd: INFO: Started (pid: 6061).
+2023/06/14 15:55:11 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2023/06/14 15:55:11 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2023/06/14 15:55:11 sca: INFO: Module started.
+2023/06/14 15:55:11 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 15:55:11 sca: INFO: Starting Security Configuration Assessment scan.
+2023/06/14 15:55:11 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2023/06/14 15:55:11 wazuh-modulesd:database: INFO: Module started.
+2023/06/14 15:55:11 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2023/06/14 15:55:11 wazuh-modulesd:download: INFO: Module started.
+2023/06/14 15:55:11 wazuh-modulesd:control: INFO: Starting control thread.
+2023/06/14 15:55:11 wazuh-modulesd:syscollector: INFO: Module started.
+2023/06/14 15:55:11 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2023/06/14 15:55:11 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 15:55:11 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2023/06/14 15:55:17 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 15:55:17 sca: INFO: Security Configuration Assessment scan finished. Duration: 6 seconds.
+2023/06/14 15:55:23 rootcheck: INFO: Ending rootcheck scan.
+2023/06/14 15:55:38 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
+2023/06/14 15:55:38 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 16:05:26 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:05:26 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:05:30 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 16:05:30 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 16:05:30 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 16:05:30 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 16:05:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:05:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:05:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:05:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:05:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:05:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:06:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:06:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:06:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:06:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:06:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:06:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:06:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:06:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:06:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:06:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:06:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:06:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:07:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:07:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:07:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:07:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:07:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:07:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:07:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:07:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:07:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:07:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:07:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:07:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:08:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:08:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:08:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:08:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:08:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:08:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:08:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:08:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:08:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:08:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:08:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:08:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:09:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:09:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:09:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:09:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:09:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:09:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:09:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:09:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:09:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:09:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:09:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:09:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:10:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:10:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:10:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:10:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:10:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:10:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:10:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:10:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:10:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:10:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:10:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:10:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:11:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:11:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:11:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:11:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:11:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:11:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:11:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:11:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:11:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:11:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:11:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:11:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:12:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:12:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:12:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:12:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:12:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:12:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:12:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:12:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:12:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:12:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:12:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:12:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:13:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:13:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:13:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:13:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:13:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:13:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:13:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:13:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:13:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:13:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:13:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:13:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:14:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:14:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:14:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:14:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:14:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:14:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:14:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:14:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:14:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:14:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:14:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:14:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:15:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:15:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:15:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:15:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:15:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:15:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:15:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:15:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:15:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:15:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:15:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:15:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:16:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:16:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:16:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:16:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:16:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:16:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:16:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:16:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:16:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:16:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:16:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:16:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:17:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:17:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:17:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:17:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:17:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:17:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:17:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:17:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:17:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:17:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:17:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:17:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:18:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:18:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:18:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:18:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:18:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:18:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:18:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:18:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:18:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:18:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:18:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:18:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:19:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:19:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:19:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:19:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:19:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:19:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:19:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:19:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:19:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:19:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:19:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:19:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:20:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:20:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:20:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:20:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:20:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:20:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:20:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:20:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:20:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:20:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:20:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:20:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:21:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:21:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:21:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:21:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:21:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:21:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:21:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:21:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:21:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:21:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:21:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:21:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:22:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:22:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:22:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:22:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:22:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:22:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:22:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:22:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:22:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:22:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:22:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:22:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:23:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:23:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:23:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:23:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:23:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:23:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:23:33 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:23:33 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:23:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:23:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:23:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:23:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:24:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:24:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:24:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:24:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:24:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:24:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:24:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:24:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:24:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:24:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:24:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:24:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:25:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:25:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:25:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:25:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:25:23 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:25:23 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:25:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:25:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:25:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:25:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:25:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:25:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:26:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:26:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:26:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:26:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:26:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:26:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:26:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:26:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:26:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:26:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:26:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:26:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:27:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:27:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:27:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:27:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:27:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:27:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:27:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:27:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:27:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:27:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:27:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:27:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:28:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:28:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:28:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:28:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:28:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:28:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:28:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:28:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:28:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:28:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:28:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:28:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:29:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:29:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:29:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:29:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:29:19 manage_agents: ERROR: 9011: Agent ID not found
+2023/06/14 16:29:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:29:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:29:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:29:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:29:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:29:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:29:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:29:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:30:00 manage_agents: ERROR: 9011: Agent ID not found
+2023/06/14 16:30:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:30:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:30:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:30:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:30:21 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:30:21 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:30:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:30:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:30:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:30:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:30:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:30:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:31:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:31:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:31:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:31:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:31:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:31:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:31:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:31:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:31:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:31:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:31:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:31:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:32:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:32:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:32:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:32:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:32:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:32:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:32:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:32:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:32:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:32:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:32:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:32:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:33:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:33:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:33:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:33:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:33:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:33:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:33:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:33:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:33:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:33:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:33:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:33:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:34:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:34:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:34:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:34:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:34:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:34:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:34:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:34:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:34:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:34:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:34:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:34:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:35:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:35:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:35:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:35:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:35:21 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:35:21 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:35:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:35:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:35:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:35:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:35:52 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:35:52 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:36:02 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:36:02 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:36:12 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:36:12 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:36:22 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:36:22 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:36:32 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:36:32 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:36:42 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:36:42 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:36:48 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
+2023/06/14 16:36:48 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 16:36:52 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:36:52 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:37:02 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:37:12 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:37:22 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:37:32 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:37:32 wazuh-authd: INFO: New connection from 134.209.145.228
+2023/06/14 16:37:32 wazuh-authd: ERROR: Invalid password provided by 134.209.145.228. Closing connection.
+2023/06/14 16:37:42 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:37:52 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:38:02 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:38:12 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:38:20 wazuh-modulesd:syscollector: INFO: Stop received for Syscollector.
+2023/06/14 16:38:20 wazuh-modulesd:syscollector: INFO: Module finished.
+2023/06/14 16:38:20 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 16:38:20 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 16:38:20 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 16:38:20 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 16:38:20 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 16:38:21 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2023/06/14 16:38:21 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 16:38:21 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 16:38:22 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 16:38:22 wazuh-authd: INFO: New connection from 134.209.145.228
+2023/06/14 16:38:22 wazuh-authd: ERROR: Invalid password provided by 134.209.145.228. Closing connection.
+2023/06/14 16:38:22 wazuh-authd: INFO: Exiting...
+2023/06/14 16:38:25 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2023/06/14 16:38:25 wazuh-dbd: INFO: Database not configured. Clean exit.
+2023/06/14 16:38:25 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2023/06/14 16:38:25 wazuh-agentlessd: INFO: Not configured. Exiting.
+2023/06/14 16:38:25 wazuh-authd: INFO: Started (pid: 7041).
+2023/06/14 16:38:25 wazuh-authd: INFO: Accepting connections on port 1515. Using password specified on file: etc/authd.pass
+2023/06/14 16:38:25 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2023/06/14 16:38:26 wazuh-db: INFO: Started (pid: 7058).
+2023/06/14 16:38:27 wazuh-execd: INFO: Started (pid: 7083).
+2023/06/14 16:38:28 wazuh-analysisd: INFO: Total rules enabled: '6689'
+2023/06/14 16:38:28 wazuh-analysisd: INFO: Started (pid: 7095).
+2023/06/14 16:38:28 wazuh-analysisd: INFO: EPS limit disabled
+2023/06/14 16:38:28 wazuh-analysisd: INFO: (7200): Logtest started
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: Started (pid: 7163).
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2023/06/14 16:38:28 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2023/06/14 16:38:28 rootcheck: INFO: Starting rootcheck scan.
+2023/06/14 16:38:29 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2023/06/14 16:38:29 wazuh-remoted: INFO: Started (pid: 7186). Listening on port 1514/TCP (secure).
+2023/06/14 16:38:29 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 16:38:30 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2023/06/14 16:38:30 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2023/06/14 16:38:30 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2023/06/14 16:38:30 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2023/06/14 16:38:30 wazuh-logcollector: INFO: Started (pid: 7247).
+2023/06/14 16:38:31 wazuh-monitord: INFO: Started (pid: 7303).
+2023/06/14 16:38:31 wazuh-modulesd: INFO: Started (pid: 7313).
+2023/06/14 16:38:31 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2023/06/14 16:38:31 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2023/06/14 16:38:31 sca: INFO: Module started.
+2023/06/14 16:38:31 wazuh-modulesd:control: INFO: Starting control thread.
+2023/06/14 16:38:31 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 16:38:31 wazuh-modulesd:database: INFO: Module started.
+2023/06/14 16:38:31 sca: INFO: Starting Security Configuration Assessment scan.
+2023/06/14 16:38:31 wazuh-modulesd:download: INFO: Module started.
+2023/06/14 16:38:31 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2023/06/14 16:38:31 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2023/06/14 16:38:31 wazuh-modulesd:syscollector: INFO: Module started.
+2023/06/14 16:38:31 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2023/06/14 16:38:31 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2023/06/14 16:38:31 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 16:38:32 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:38:37 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 16:38:37 sca: INFO: Security Configuration Assessment scan finished. Duration: 6 seconds.
+2023/06/14 16:38:42 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:38:44 rootcheck: INFO: Ending rootcheck scan.
+2023/06/14 16:38:52 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:39:02 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:39:12 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:39:12 wazuh-authd: INFO: New connection from 134.209.145.228
+2023/06/14 16:39:12 wazuh-authd: ERROR: Invalid password provided by 134.209.145.228. Closing connection.
+2023/06/14 16:39:22 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:39:32 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:39:42 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:39:52 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:40:02 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:40:02 wazuh-authd: INFO: New connection from 134.209.145.228
+2023/06/14 16:40:02 wazuh-authd: ERROR: Invalid password provided by 134.209.145.228. Closing connection.
+2023/06/14 16:40:12 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:40:22 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:40:32 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:40:42 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:40:52 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:40:52 wazuh-authd: INFO: New connection from 134.209.145.228
+2023/06/14 16:40:52 wazuh-authd: ERROR: Invalid password provided by 134.209.145.228. Closing connection.
+2023/06/14 16:41:02 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:41:12 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:41:22 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:41:32 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:41:42 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:41:42 wazuh-authd: INFO: New connection from 134.209.145.228
+2023/06/14 16:41:42 wazuh-authd: ERROR: Invalid password provided by 134.209.145.228. Closing connection.
+2023/06/14 16:41:52 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:42:02 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:42:12 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:42:22 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:42:32 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:42:32 wazuh-authd: INFO: New connection from 134.209.145.228
+2023/06/14 16:42:32 wazuh-authd: ERROR: Invalid password provided by 134.209.145.228. Closing connection.
+2023/06/14 16:42:42 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:42:52 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:43:02 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:43:12 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:43:22 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:43:22 wazuh-authd: INFO: New connection from 134.209.145.228
+2023/06/14 16:43:22 wazuh-authd: ERROR: Invalid password provided by 134.209.145.228. Closing connection.
+2023/06/14 16:43:32 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 16:48:09 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
+2023/06/14 16:48:09 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 16:50:21 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:50:21 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:50:26 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 16:50:26 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 16:50:26 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 16:50:26 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '001'
+2023/06/14 16:50:27 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:50:27 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:50:37 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:50:37 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:50:47 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:50:47 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:50:57 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:50:57 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:51:07 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:51:07 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:51:17 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:51:17 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:51:27 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:51:27 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:51:37 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:51:37 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:51:47 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:51:47 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:51:58 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:51:58 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:52:08 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:52:08 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:52:18 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:52:18 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:52:28 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:52:28 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:52:38 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:52:38 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:52:48 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:52:48 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:52:58 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:52:58 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:53:08 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:53:08 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:53:18 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:53:18 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:53:28 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:53:28 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:53:38 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:53:38 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:53:48 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:53:48 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:53:58 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:53:58 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:54:08 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:54:08 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:54:18 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:54:18 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:54:28 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:54:28 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:54:38 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:54:38 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:54:48 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:54:48 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:54:58 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:54:58 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:55:08 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:55:08 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:55:18 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:55:18 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:55:28 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:55:28 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:55:38 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:55:38 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:55:48 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:55:48 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:55:58 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:55:58 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:56:08 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:56:08 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:56:18 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:56:18 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:56:28 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:56:28 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:56:38 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:56:38 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:56:48 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:56:48 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:56:49 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
+2023/06/14 16:56:49 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 16:56:58 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:56:58 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:57:08 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:57:08 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:57:18 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:57:18 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:57:28 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:57:28 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:57:38 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:57:38 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:57:48 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:57:48 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:57:58 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:57:58 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:58:08 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:58:08 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:58:18 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:58:18 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:58:28 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:58:28 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:58:38 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:58:38 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:58:39 manage_agents: ERROR: 9011: Agent ID not found
+2023/06/14 16:58:48 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:58:48 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:58:58 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:58:58 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:59:08 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:59:08 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:59:18 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:59:18 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:59:28 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:59:28 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:59:38 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:59:38 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:59:48 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:59:48 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 16:59:58 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 16:59:58 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 17:00:08 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 17:00:08 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 17:00:18 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 17:00:18 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 17:00:28 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 17:00:28 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 17:00:38 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 17:00:38 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 17:00:48 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 17:00:48 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 17:00:58 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 17:00:58 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 17:01:08 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 17:01:08 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 17:01:18 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 17:01:18 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 17:01:28 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 17:01:28 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 17:01:38 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 17:01:38 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 17:01:48 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 17:01:48 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 17:01:58 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 17:01:58 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 17:02:08 wazuh-db: ERROR: There was an error assigning the groups to agent '001'
+2023/06/14 17:02:08 wazuh-db: WARNING: The groups were empty right after the set for agent '001'
+2023/06/14 17:02:09 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
+2023/06/14 17:02:09 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 17:02:18 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 17:02:18 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 17:02:28 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 17:02:38 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 17:02:41 wazuh-modulesd:syscollector: INFO: Stop received for Syscollector.
+2023/06/14 17:02:41 wazuh-modulesd:syscollector: INFO: Module finished.
+2023/06/14 17:02:42 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 17:02:42 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 17:02:42 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 17:02:42 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 17:02:42 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 17:02:42 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2023/06/14 17:02:42 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 17:02:42 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 17:02:43 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2023/06/14 17:02:44 wazuh-authd: INFO: Exiting...
+2023/06/14 17:02:47 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2023/06/14 17:02:47 wazuh-dbd: INFO: Database not configured. Clean exit.
+2023/06/14 17:02:47 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2023/06/14 17:02:47 wazuh-agentlessd: INFO: Not configured. Exiting.
+2023/06/14 17:02:47 wazuh-authd: INFO: Started (pid: 8364).
+2023/06/14 17:02:47 wazuh-authd: INFO: Accepting connections on port 1515. Using password specified on file: etc/authd.pass
+2023/06/14 17:02:47 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2023/06/14 17:02:47 wazuh-db: INFO: Started (pid: 8379).
+2023/06/14 17:02:48 wazuh-execd: INFO: Started (pid: 8403).
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: Started (pid: 8425).
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2023/06/14 17:02:48 rootcheck: INFO: Starting rootcheck scan.
+2023/06/14 17:02:48 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2023/06/14 17:02:48 wazuh-analysisd: INFO: Total rules enabled: '6689'
+2023/06/14 17:02:48 wazuh-analysisd: INFO: Started (pid: 8415).
+2023/06/14 17:02:48 wazuh-analysisd: INFO: EPS limit disabled
+2023/06/14 17:02:48 wazuh-analysisd: INFO: (7200): Logtest started
+2023/06/14 17:02:49 wazuh-remoted: INFO: Started (pid: 8501). Listening on port 1514/TCP (secure).
+2023/06/14 17:02:49 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 17:02:50 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2023/06/14 17:02:50 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2023/06/14 17:02:50 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2023/06/14 17:02:50 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2023/06/14 17:02:50 wazuh-logcollector: INFO: Started (pid: 8564).
+2023/06/14 17:02:50 wazuh-monitord: INFO: Started (pid: 8582).
+2023/06/14 17:02:51 wazuh-modulesd: INFO: Started (pid: 8628).
+2023/06/14 17:02:51 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2023/06/14 17:02:51 wazuh-modulesd:control: INFO: Starting control thread.
+2023/06/14 17:02:51 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2023/06/14 17:02:51 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2023/06/14 17:02:51 wazuh-modulesd:database: INFO: Module started.
+2023/06/14 17:02:51 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2023/06/14 17:02:51 sca: INFO: Module started.
+2023/06/14 17:02:51 wazuh-modulesd:download: INFO: Module started.
+2023/06/14 17:02:51 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 17:02:51 sca: INFO: Starting Security Configuration Assessment scan.
+2023/06/14 17:02:51 wazuh-modulesd:syscollector: INFO: Module started.
+2023/06/14 17:02:51 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2023/06/14 17:02:51 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2023/06/14 17:02:51 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 17:02:57 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2023/06/14 17:02:57 sca: INFO: Security Configuration Assessment scan finished. Duration: 6 seconds.
+2023/06/14 17:02:58 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 17:02:58 wazuh-authd: INFO: New connection from 134.209.145.228
+2023/06/14 17:02:58 wazuh-authd: ERROR: Invalid password provided by 134.209.145.228. Closing connection.
+2023/06/14 17:03:04 rootcheck: INFO: Ending rootcheck scan.
+2023/06/14 17:03:08 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 17:03:18 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 17:03:28 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 17:03:38 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 17:03:48 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 17:03:48 wazuh-authd: INFO: New connection from 134.209.145.228
+2023/06/14 17:03:48 wazuh-authd: ERROR: Invalid password provided by 134.209.145.228. Closing connection.
+2023/06/14 17:03:56 wazuh-authd: INFO: Agent key generated for agent 'test' (requested locally)
+2023/06/14 17:03:58 wazuh-remoted: WARNING: (1408): Invalid ID 001 for the source ip: '134.209.145.228' (name 'unknown').
+2023/06/14 17:03:59 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
+2023/06/14 17:03:59 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 17:04:08 wazuh-remoted: WARNING: (1404): Authentication error. Wrong key or corrupt payload. Message received from agent '001' at 'any'.
+2023/06/14 17:04:08 wazuh-remoted: WARNING: Decrypt the message fail, socket 12
+2023/06/14 17:04:18 wazuh-remoted: WARNING: (1404): Authentication error. Wrong key or corrupt payload. Message received from agent '001' at 'any'.
+2023/06/14 17:04:18 wazuh-remoted: WARNING: Decrypt the message fail, socket 12
+2023/06/14 17:04:28 wazuh-remoted: WARNING: (1404): Authentication error. Wrong key or corrupt payload. Message received from agent '001' at 'any'.
+2023/06/14 17:04:28 wazuh-remoted: WARNING: Decrypt the message fail, socket 12
+2023/06/14 17:04:38 wazuh-remoted: WARNING: (1404): Authentication error. Wrong key or corrupt payload. Message received from agent '001' at 'any'.
+2023/06/14 17:04:38 wazuh-remoted: WARNING: Decrypt the message fail, socket 12
+2023/06/14 17:04:38 wazuh-authd: INFO: New connection from 134.209.145.228
+2023/06/14 17:04:38 wazuh-authd: ERROR: Invalid password provided by 134.209.145.228. Closing connection.
+2023/06/14 17:04:48 wazuh-remoted: WARNING: (1404): Authentication error. Wrong key or corrupt payload. Message received from agent '001' at 'any'.
+2023/06/14 17:04:48 wazuh-remoted: WARNING: Decrypt the message fail, socket 12
+2023/06/14 17:04:49 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
+2023/06/14 17:04:49 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 17:09:30 wazuh-remoted: WARNING: (1408): Invalid ID 002 for the source ip: '152.58.39.99' (name 'unknown').
+2023/06/14 17:09:40 wazuh-remoted: WARNING: (1408): Invalid ID 002 for the source ip: '152.58.39.99' (name 'unknown').
+2023/06/14 17:09:50 wazuh-remoted: WARNING: (1408): Invalid ID 002 for the source ip: '152.58.39.99' (name 'unknown').
+2023/06/14 17:10:01 wazuh-remoted: WARNING: (1408): Invalid ID 002 for the source ip: '152.58.39.99' (name 'unknown').
+2023/06/14 17:10:09 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
+2023/06/14 17:10:09 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 17:10:11 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:10:11 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:10:12 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '002'
+2023/06/14 17:10:12 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '002'
+2023/06/14 17:10:12 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '002'
+2023/06/14 17:10:12 wazuh-analysisd: ERROR: Error querying policy monitoring database for agent '002'
+2023/06/14 17:10:21 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:10:21 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:10:31 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:10:31 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:10:41 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:10:41 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:10:51 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:10:51 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:11:01 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:11:01 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:11:11 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:11:11 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:11:21 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:11:21 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:11:31 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:11:31 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:11:41 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:11:41 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:11:50 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:11:50 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:12:01 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:12:01 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:12:11 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:12:11 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:12:21 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:12:21 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:12:31 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:12:31 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:12:41 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:12:41 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:12:51 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:12:51 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:13:01 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:13:01 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:13:11 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:13:11 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:13:21 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:13:21 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:13:31 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:13:31 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:13:41 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:13:41 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:13:51 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:13:51 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:14:01 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:14:01 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:14:11 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:14:11 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:14:20 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:14:20 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:14:31 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:14:31 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:14:41 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:14:41 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:14:51 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:14:51 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:15:01 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:15:01 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:15:11 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:15:11 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:15:21 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:15:21 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:15:31 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:15:31 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:15:41 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:15:41 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:15:51 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:15:51 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:16:01 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:16:01 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:16:11 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:16:11 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:16:21 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:16:21 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:16:31 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:16:31 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:16:41 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:16:41 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:16:57 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:16:57 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:17:02 wazuh-db: ERROR: There was an error assigning the groups to agent '002'
+2023/06/14 17:17:02 wazuh-db: WARNING: The groups were empty right after the set for agent '002'
+2023/06/14 17:18:04 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:18:14 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:18:24 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:18:38 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:18:48 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:18:48 wazuh-authd: INFO: New connection from 103.250.137.230
+2023/06/14 17:18:48 wazuh-authd: ERROR: Invalid password provided by 103.250.137.230. Closing connection.
+2023/06/14 17:18:59 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:19:09 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:19:19 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:19:29 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:19:39 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:19:39 wazuh-authd: INFO: New connection from 103.250.137.230
+2023/06/14 17:19:39 wazuh-authd: ERROR: Invalid password provided by 103.250.137.230. Closing connection.
+2023/06/14 17:19:49 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:19:59 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:20:09 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:20:20 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:20:30 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:20:30 wazuh-authd: INFO: New connection from 103.250.137.230
+2023/06/14 17:20:30 wazuh-authd: ERROR: Invalid password provided by 103.250.137.230. Closing connection.
+2023/06/14 17:20:40 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:20:50 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:21:00 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:21:10 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:21:20 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:21:21 wazuh-authd: INFO: New connection from 103.250.137.230
+2023/06/14 17:21:21 wazuh-authd: ERROR: Invalid password provided by 103.250.137.230. Closing connection.
+2023/06/14 17:21:31 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:21:41 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:21:51 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:22:01 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:22:11 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:22:11 wazuh-authd: INFO: New connection from 103.250.137.230
+2023/06/14 17:22:11 wazuh-authd: ERROR: Invalid password provided by 103.250.137.230. Closing connection.
+2023/06/14 17:22:12 manage_agents: ERROR: 9011: Agent ID not found
+2023/06/14 17:22:22 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:22:32 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:22:42 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:22:52 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:23:02 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:23:02 wazuh-authd: INFO: New connection from 103.250.137.230
+2023/06/14 17:23:02 wazuh-authd: ERROR: Invalid password provided by 103.250.137.230. Closing connection.
+2023/06/14 17:23:12 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:23:22 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:23:33 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:23:43 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:23:53 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:23:53 wazuh-authd: INFO: New connection from 103.250.137.230
+2023/06/14 17:23:53 wazuh-authd: ERROR: Invalid password provided by 103.250.137.230. Closing connection.
+2023/06/14 17:24:02 manage_agents: ERROR: 9011: Agent ID not found
+2023/06/14 17:24:03 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:24:13 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:24:23 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:24:33 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:24:44 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:24:44 wazuh-authd: INFO: New connection from 103.250.137.230
+2023/06/14 17:24:44 wazuh-authd: ERROR: Invalid password provided by 103.250.137.230. Closing connection.
+2023/06/14 17:24:54 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:25:04 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:25:14 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:25:24 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:25:34 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:25:34 wazuh-authd: INFO: New connection from 103.250.137.230
+2023/06/14 17:25:35 wazuh-authd: ERROR: Invalid password provided by 103.250.137.230. Closing connection.
+2023/06/14 17:25:45 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:25:55 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:26:05 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:26:15 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:26:25 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:26:25 wazuh-authd: INFO: New connection from 103.250.137.230
+2023/06/14 17:26:25 wazuh-authd: ERROR: Invalid password provided by 103.250.137.230. Closing connection.
+2023/06/14 17:26:35 manage_agents: ERROR: 9011: Agent ID not found
+2023/06/14 17:26:35 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:26:45 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:26:56 wazuh-remoted: WARNING: Agent key already in use: agent ID '002'
+2023/06/14 17:26:59 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
+2023/06/14 17:26:59 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2023/06/14 17:27:06 wazuh-remoted: WARNING: (1408): Invalid ID 002 for the source ip: '103.250.137.230' (name 'unknown').
+2023/06/14 17:27:16 wazuh-remoted: WARNING: (1408): Invalid ID 002 for the source ip: '103.250.137.230' (name 'unknown').
+2023/06/14 17:27:16 wazuh-authd: INFO: New connection from 103.250.137.230
+2023/06/14 17:27:16 wazuh-authd: ERROR: Invalid password provided by 103.250.137.230. Closing connection.
+2023/06/14 17:27:26 wazuh-remoted: WARNING: (1408): Invalid ID 002 for the source ip: '103.250.137.230' (name 'unknown').
+2023/06/14 17:27:36 wazuh-remoted: WARNING: (1408): Invalid ID 002 for the source ip: '103.250.137.230' (name 'unknown').
+2023/06/14 17:27:46 wazuh-remoted: WARNING: (1408): Invalid ID 002 for the source ip: '103.250.137.230' (name 'unknown').
+2023/06/14 17:27:56 wazuh-remoted: WARNING: (1408): Invalid ID 002 for the source ip: '103.250.137.230' (name 'unknown').
+2023/06/14 17:28:06 wazuh-remoted: WARNING: (1408): Invalid ID 002 for the source ip: '103.250.137.230' (name 'unknown').
+2023/06/14 17:28:07 wazuh-authd: INFO: New connection from 103.250.137.230
+2023/06/14 17:28:07 wazuh-authd: ERROR: Invalid password provided by 103.250.137.230. Closing connection.
+2023/06/14 17:28:17 wazuh-remoted: WARNING: (1408): Invalid ID 002 for the source ip: '103.250.137.230' (name 'unknown').

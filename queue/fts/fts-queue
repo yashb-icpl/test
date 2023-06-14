@@ -1,0 +1,4 @@
+ossec        (agent) any->wazuh-agent
+sudo   root     (agent) any->/var/log/auth.log
+ossec        (ubuntu-3) any->wazuh-agent
+ossec        (yash) any->wazuh-agent

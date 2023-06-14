@@ -1,0 +1,60 @@
+{
+	"global":	{
+		"start":	"2023-06-14 17:02:50",
+		"end":	"2023-06-14 17:27:50",
+		"files":	[{
+				"location":	"last -n 20",
+				"events":	5,
+				"bytes":	330,
+				"targets":	[{
+						"name":	"agent",
+						"drops":	0
+					}]
+			}, {
+				"location":	"/var/ossec/logs/active-responses.log",
+				"events":	0,
+				"bytes":	0,
+				"targets":	[{
+						"name":	"agent",
+						"drops":	0
+					}]
+			}, {
+				"location":	"df -P",
+				"events":	45,
+				"bytes":	3970,
+				"targets":	[{
+						"name":	"agent",
+						"drops":	0
+					}]
+			}]
+	},
+	"interval":	{
+		"start":	"2023-06-14 17:26:50",
+		"end":	"2023-06-14 17:27:50",
+		"files":	[{
+				"location":	"last -n 20",
+				"events":	1,
+				"bytes":	66,
+				"targets":	[{
+						"name":	"agent",
+						"drops":	0
+					}]
+			}, {
+				"location":	"/var/ossec/logs/active-responses.log",
+				"events":	0,
+				"bytes":	0,
+				"targets":	[{
+						"name":	"agent",
+						"drops":	0
+					}]
+			}, {
+				"location":	"df -P",
+				"events":	9,
+				"bytes":	794,
+				"targets":	[{
+						"name":	"agent",
+						"drops":	0
+					}]
+			}]
+	}
+}
